@@ -11,6 +11,7 @@ import javafx.stage.Stage;
 
 public class RegisterView extends Main 
 {
+	//push
 	static Stage registerStage;
 	static RegisterView registerView = new RegisterView(); 
 
