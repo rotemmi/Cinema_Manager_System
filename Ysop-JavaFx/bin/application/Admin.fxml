@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="535.0" prefWidth="600.0" style="-fx-background-color: #FAEBD7;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdminController">
+   <children>
+      <Pane layoutX="-3.0" layoutY="16.0" prefHeight="65.0" prefWidth="600.0" style="-fx-background-color: #E6E6FA;" />
+      <Button layoutX="444.0" layoutY="151.0" mnemonicParsing="false" onAction="#deleteUserPress" prefHeight="65.0" prefWidth="129.0" text="Delete User" />
+      <Button layoutX="42.0" layoutY="151.0" mnemonicParsing="false" onAction="#addCinemaWindow" prefHeight="65.0" prefWidth="162.0" text="Add/Remove Cinema" />
+      <Button layoutX="239.0" layoutY="151.0" mnemonicParsing="false" onAction="#addMovieWindow" prefHeight="65.0" prefWidth="169.0" text="Add/Remove Movie" />
+      <Button layoutX="115.0" layoutY="243.0" mnemonicParsing="false" onAction="#addScreeningWindow" prefHeight="65.0" prefWidth="178.0" text="Add Screening" />
+      <Button layoutX="348.0" layoutY="243.0" mnemonicParsing="false" onAction="#addAdminTutorialWindow" prefHeight="65.0" prefWidth="178.0" text="Tutorial" />
+      <Label layoutX="177.0" layoutY="33.0" text="Admin Dashboard:">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="225.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="img//icons8-admin-settings-male-64.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
